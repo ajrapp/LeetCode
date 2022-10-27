@@ -12,8 +12,7 @@ public:
             int second = pq.top();
             pq.pop();
             if (first > second) {
-                first -= second;
-                pq.push(first);
+                pq.push(first - second);
             }
         }
         

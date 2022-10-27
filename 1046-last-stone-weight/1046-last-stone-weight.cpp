@@ -15,10 +15,6 @@ public:
                 first -= second;
                 pq.push(first);
             }
-            else if (first < second) {
-                second -= first;
-                pq.push(first);
-            }
         }
         
         if (pq.empty()) {
